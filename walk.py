@@ -3,6 +3,7 @@ from geometry_msgs.msg import Twist
 import time
 
 def move_square(publisher):
+    # Twist() control linear and angular
     move_cmd = Twist()
     turn_cmd = Twist()
 
